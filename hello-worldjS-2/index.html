@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script >
+        const heading = document.createElement("h1");//stored a create element api inside heading const variable
+        heading.innerHTML = "Hello World from js!!"; //heading got assigned the html content
+        const root = document.getElementById("root");//the div root is acceses and stored into root variable
+        root.appendChild(heading); //the appendchild inserts a child which is h1 to the root div
+    </script>
+</body>
+</html>

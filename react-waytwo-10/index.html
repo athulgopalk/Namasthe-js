@@ -13,11 +13,14 @@
     
 
     
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> --> 
      <!-- now react has came to our program ,we can now use its super powers -->
+      <!-- but react is imported to our program as package, so we don't need cdn link -->
 
-     <script src="./App.js"></script>
+     <script type="module" src="./App.js"></script>
      
 </body>
 </html>  
+<!-- 
+//i have given the command npx parcel build index.html ,so it is a producation ready app now -->
